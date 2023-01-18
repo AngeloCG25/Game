@@ -1,0 +1,570 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- link de css -->
+    <link rel="stylesheet" href="css/game.css">
+    <!-- link de iconos -->
+    <script src="https://kit.fontawesome.com/be8c3c7759.js" crossorigin="anonymous"></script>
+    <title>Game Warrior Template</title>
+</head>
+
+<body>
+
+    <!-- header -->
+    <nav id="header" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#"><img src="juegos/game.webp" alt=""
+                class="d-inline-block align-top header-img"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse header-nav" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link header-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header-link" href="#">Juegos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header-link" href="#">Foros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link header-link" href="#">Contactos</a>
+                </li>
+            </ul>
+            <div class="badge-pill ml-auto header-datos d-none d-lg-inline-block">
+                <a href="" class="header-login">Iniciar sesión</a> / <a href="" class="header-registro">Registrarse</a>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main">
+        <!-- carrusel -->
+        <div id="carouselExampleIndicators" class="carrusel carousel slide carousel-fade" data-ride="carousel"
+            data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="juegos/slider-1.jpg.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="juegos/slider-2.jpg.webp" alt="Second slide">
+                </div>
+                <!-- Agregando texto informativo -->
+                <div class="overlay">
+                    <div class="container overlay-contenedor">
+                        <div class="row overlay-fila align-items-center">
+                            <div class="col-12 text-left">
+                                <h1 class="mb-4">Los mejores <span>juegos</span> que existen</h1>
+                                <p class="mb-4">El cliente es muy importante, el cliente será seguido por
+                                    el cliente. Hasta entonces<br>
+                                    , los mauris más grandes del mundo, pero no había web oficial. Así como la sabiduría
+                                    jurídica. <br> El final del curso.
+                                </p>
+                                <!-- Agregando botones -->
+                                <a href="" class="btn badge-pill btn-warning px-4 py-2 px-md-5 py-md-3"
+                                    style="font-weight: 600;">Lee mas</a>
+                                <!-- botones de atras y adelante -->
+                                <ol class="carousel-indicators justify-content-start carrusel-indicador">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0"
+                                        class="carrusel-boton active">01.</li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"
+                                        class="carrusel-boton">02.</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- noticas -->
+        <div class="noticias">
+            <div class="d-flex text-white">
+                <div
+                    class="noticias-texto bg-warning text-white py-4 d-none d-md-flex align-items-center justify-content-end">
+                    <h5 class="mb-0">Últimas noticias</h5>
+                </div>
+                <div class="noticias-insignias py-4 d-flex">
+                    <marquee behavior="alternate" direction="left">
+                        <div class="d-flex">
+                            <div class="noticias-nuevo d-flex align-items-center mr-5">
+                                <span class="insignia-rojo badge rounded-0 mr-5 text-uppercase px-3 py-2">Nuevo</span>
+                                <p class="mb-0">El cliente es muy importante, el cliente será seguido por el cliente</p>
+                            </div>
+                            <div class="noticias-estrategias d-flex align-items-center mr-5">
+                                <span
+                                    class="insignia-verde badge rounded-0 mr-5 text-uppercase px-3 py-2">Estrategia</span>
+                                <p class="mb-0">Este dolor es importante, y será seguido por el revelador adipiscente.
+                                </p>
+                            </div>
+                            <div class="noticias-carreras d-flex align-items-center mr-5">
+                                <span
+                                    class="insignia-morado badge rounded-0 mr-5 text-uppercase px-3 py-2">Carreras</span>
+                                <p class="mb-0">Este dolor es importante, y será seguido por el revelador adipiscente.
+                                </p>
+                            </div>
+                        </div>
+                    </marquee>
+                </div>
+            </div>
+        </div>
+
+        <!-- tarjetas -->
+        <section class="section">
+            <!-- utilizando la clase .section-contenedor -->
+            <div class="section-contenedor m-auto text-white">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-9 col-md-5 col-lg px-0 mb-4 mb-md-0">
+                        <!-- agregando tarjeta de boostrams-->
+                        <div class="card rounded-0 border-0">
+                            <img class="rounded-0 tarjeta-img" src="juegos/1.jpg.webp" alt="">
+
+                            <div class="tarjeta-contenido d-flex flex-wrap">
+                                <div class="">
+                                    <span class="insignia-rojo rounded-0 badge text-uppercase px-3 py-2">Nuevo</span>
+                                </div>
+                                <div class="card-body tarjeta-texto p-0 mt-auto">
+                                    <h5 class="mb-4"><a href="" class="text-white"> Al igual que el resto del tiempo, el
+                                            maquillaje</a></h5>
+                                    <p class="card-text">El cliente es muy importante, el cliente será seguido por el
+                                        cliente.</p>
+                                    <a href="#" class="">
+                                        <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-5 col-lg px-0 mb-4 mb-md-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="rounded-0 tarjeta-img" src="juegos/2.jpg.webp" alt="">
+
+                            <div class="tarjeta-contenido d-flex flex-wrap">
+                                <div class="">
+                                    <span
+                                        class="insignia-verde rounded-0 badge text-uppercase px-3 py-2">Estrategia</span>
+                                </div>
+                                <div class="card-body tarjeta-texto p-0 mt-auto">
+                                    <h5 class="mb-4"><a href="" class="text-white">Justo a tiempo, fue maquillaje, un
+                                            empleado</a></h5>
+                                    <p class="card-text">El cliente es muy importante, el cliente será seguido por el
+                                        cliente.</p>
+                                    <a href="#" class="">
+                                        <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-5 col-lg px-0 mb-4 mb-md-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="rounded-0 tarjeta-img" src="juegos/3.jpg.webp" alt="">
+
+                            <div class="tarjeta-contenido d-flex flex-wrap">
+                                <div class="">
+                                    <span class="insignia-rojo rounded-0 badge text-uppercase px-3 py-2">Nuevo</span>
+                                </div>
+                                <div class="card-body tarjeta-texto p-0 mt-auto">
+                                    <h5 class="mb-4"><a href="" class="text-white">No lacinia ex eleifend orci
+                                            porttitor</a></h5>
+                                    <p class="card-text">El cliente es muy importante, el cliente será seguido por el
+                                        cliente.</p>
+                                    <a href="#" class="">
+                                        <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-5 col-lg px-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="rounded-0 tarjeta-img" src="juegos/4.jpg.webp" alt="">
+
+                            <div class="tarjeta-contenido d-flex flex-wrap">
+                                <div class="">
+                                    <span
+                                        class="insignia-morado rounded-0 badge text-uppercase px-3 py-2">Carreras</span>
+                                </div>
+                                <div class="card-body tarjeta-texto p-0 mt-auto">
+                                    <h5 class="mb-4"><a href="" class="text-white">Lacinia recibe tratamiento del
+                                            eleifend</a></h5>
+                                    <p class="card-text">El cliente es muy importante, el cliente será seguido por el
+                                        cliente.</p>
+                                    <a href="#" class="">
+                                        <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- juegos recientes -->
+        <section class="section juegos">
+            <!-- utilizando la clase .section-contenedor -->
+            <div class="section-contenedor m-auto">
+                <div class="row" style="margin-bottom: 75px;">
+                    <div class="col text-center">
+                        <span
+                            class="insignia-rojo rounded-0 badge text-uppercase px-4 py-2 text-white mb-3">Nuevo</span>
+                        <h3 class="juegos-titulo">Juegos recientes</h3>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card rounded-0 border-0">
+                            <div class="juegos-img text-white">
+                                <img class="card-img-top rounded-0" src="juegos/juego1.webp" alt="">
+                                <span class="insignia-rojo rounded-0 badge text-uppercase px-3 py-2">Nuevo</span>
+                            </div>
+                            <!-- agregando la clase .tarjeta-texto esta clase no pertenece a boostrams -->
+                            <div class="card-body tarjeta-texto">
+                                <h5 class="mb-4">Al igual que el resto del tiempo, el maquillaje</h5>
+                                <p class="card-text text-muted">Es importante tener un cliente, y va a tener éxito</p>
+                                <a href="#" class="d-inline-block">
+                                    <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                </a>
+
+                                <div class="iconos d-flex">
+                                    <div class="iconos-estrella">
+                                        <img src="juegos/star.png.webp" alt="">
+                                    </div>
+                                    <div class="iconos-corazon">
+                                        <img src="juegos/heart.png.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card rounded-0 border-0">
+                            <div class="juegos-img text-white">
+                                <img class="card-img-top rounded-0" src="juegos/juego2.webp" alt="">
+                                <span class="insignia-morado rounded-0 badge text-uppercase px-3 py-2">Carreras</span>
+                            </div>
+                            <!-- agregando la clase .tarjeta-texto esta clase no pertenece a boostrams -->
+                            <div class="card-body tarjeta-texto">
+                                <h5 class="mb-4">Al igual que el resto del tiempo, el maquillaje</h5>
+                                <p class="card-text text-muted">Es importante tener un cliente, y va a tener éxito</p>
+                                <a href="#" class="d-inline-block">
+                                    <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                </a>
+
+                                <div class="iconos d-flex">
+                                    <div class="iconos-estrella">
+                                        <img src="juegos/star.png.webp" alt="">
+                                    </div>
+                                    <div class="iconos-corazon">
+                                        <img src="juegos/heart.png.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card rounded-0 border-0">
+                            <div class="juegos-img text-white">
+                                <img class="card-img-top rounded-0" src="juegos/juego3.webp" alt="">
+                                <span class="insignia-celeste rounded-0 badge text-uppercase px-3 py-2">Aventura</span>
+                            </div>
+                            <!-- agregando la clase .tarjeta-texto esta clase no pertenece a boostrams -->
+                            <div class="card-body tarjeta-texto">
+                                <h5 class="mb-4">Al igual que el resto del tiempo, el maquillaje</h5>
+                                <p class="card-text text-muted">Es importante tener un cliente, y va a tener éxito</p>
+                                <a href="#" class="d-inline-block">
+                                    <p class="card-text"><small class="text-muted">3 comentarios</small></p>
+                                </a>
+
+                                <div class="iconos d-flex">
+                                    <div class="iconos-estrella">
+                                        <img src="juegos/star.png.webp" alt="">
+                                    </div>
+                                    <div class="iconos-corazon">
+                                        <img src="juegos/heart.png.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- torneos -->
+        <section class="section torneos">
+            <div class="section-contenedor m-auto">
+                <div class="text-white">
+                    <span class="insignia-naranja rounded-0 badge text-uppercase px-4 py-2">Torneos</span>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="card rounded-0 border-0 insignia-marron">
+                            <div>
+                                <span class="bg-warning rounded-0 badge text-uppercase px-4 py-2">Torneo premium</span>
+                            </div>
+                            <div class="d-flex p-4 flex-column flex-sm-row flex-md-column flex-lg-row">
+                                <img class="torneos-img" src="juegos/torneo1.webp" alt="">
+                                <div
+                                    class="torneos-contenido text-white pl-sm-4 pl-md-0 pl-lg-4 pt-4 pt-sm-0 pt-md-4 pt-lg-0">
+                                    <h4 class="text-warning mb-4">Mundo de Warcraft</h4>
+                                    <div class="torneos-texto">
+                                        <p class="mb-1"><span class="text-white-50">Inicio del torneo: </span>20 de
+                                            junio de 2018</p>
+                                        <p class="mb-1"><span class="text-white-50">Finaliza el torneo: </span>01 de
+                                            julio de 2018</p>
+                                        <p class="mb-1"><span class="text-white-50">Participantes: </span>10 equipos</p>
+                                        <p class="mb-4"><span class="text-white-50">Torneo Autor: </span>Admin</p>
+                                        <p class="text-white-50 mb-0"><span class="text-warning">Premios: </span>1er
+                                            lugar $2000, 2do lugar: $1000, 3er lugar: $500</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card rounded-0 border-0 insignia-marron">
+                            <div>
+                                <span class="bg-warning rounded-0 badge text-uppercase px-4 py-2">Torneo premium</span>
+                            </div>
+                            <div class="d-flex p-4 flex-column flex-sm-row flex-md-column flex-lg-row ">
+                                <img class="torneos-img" src="juegos/torneo2.webp" alt="">
+                                <div
+                                    class="torneos-contenido text-white pl-sm-4 pl-md-0 pl-lg-4 pt-4 pt-sm-0 pt-md-4 pt-lg-0">
+                                    <h4 class="text-warning mb-4 text-uppercase">Condenar</h4>
+                                    <div class="torneos-texto">
+                                        <p class="mb-1"><span class="text-white-50">Inicio del torneo: </span>20 de
+                                            junio de 2018</p>
+                                        <p class="mb-1"><span class="text-white-50">Finaliza el torneo: </span>01 de
+                                            julio de 2018</p>
+                                        <p class="mb-1"><span class="text-white-50">Participantes: </span>10 equipos</p>
+                                        <p class="mb-4"><span class="text-white-50">Torneo Autor: </span>Admin</p>
+                                        <p class="text-white-50 mb-0"><span class="text-warning">Premios: </span>1er
+                                            lugar $2000, 2do lugar: $1000, 3er lugar: $500</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- reseñas -->
+        <section class="section reseñas">
+            <div class="section-contenedor m-auto">
+                <div class="row" style="margin-bottom: 75px;">
+                    <div class="col text-center">
+                        <span
+                            class="insignia-rojo rounded-0 badge text-uppercase px-4 py-2 text-white mb-3">Nuevo</span>
+                        <h3 class="reseñas-titulo">Reseñas recientes</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="card-img-top rounded-0 reseñas-img" src="juegos/reseña1.webp"
+                                alt="Card image cap">
+                            <div class="reseñas-insignia">
+                                <span class="insignia-redonda bg-warning text-white p-3">9.3</span>
+                            </div>
+                            <div class="card-body text-center px-2">
+                                <h5 class="mb-4">Credo del asesino</h5>
+                                <p class="card-text text-muted reseñas-parrafo">El dolor mismo debe ser amado, y el
+                                    logro del dolor mismo debe ser amado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="card-img-top rounded-0 reseñas-img" src="juegos/reseña2.webp"
+                                alt="Card image cap">
+                            <div class="reseñas-insignia">
+                                <span class="insignia-redonda insignia-morado text-white p-3">9.5</span>
+                            </div>
+                            <div class="card-body text-center px-2">
+                                <h5 class="mb-4">Condenar</h5>
+                                <p class="card-text text-muted reseñas-parrafo">El dolor mismo debe ser amado, y el
+                                    logro del dolor mismo debe ser amado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+                        <div class="card rounded-0 border-0">
+                            <img class="card-img-top rounded-0 reseñas-img" src="juegos/reseña3.webp"
+                                alt="Card image cap">
+                            <div class="reseñas-insignia">
+                                <span class="insignia-redonda insignia-verde text-white p-3">9.1</span>
+                            </div>
+                            <div class="card-body text-center px-2">
+                                <h5 class="mb-4">Supervisión</h5>
+                                <p class="card-text text-muted reseñas-parrafo">El dolor mismo debe ser amado, y el
+                                    logro del dolor mismo debe ser amado.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card rounded-0 border-0">
+                            <img class="card-img-top rounded-0 reseñas-img" src="juegos/reseña4.webp"
+                                alt="Card image cap">
+                            <div class="reseñas-insignia">
+                                <span class="insignia-redonda insignia-rosado text-white p-3">9.7</span>
+                            </div>
+                            <div class="card-body text-center px-2">
+                                <h5 class="mb-4">GTA</h5>
+                                <p class="card-text text-muted reseñas-parrafo">El dolor mismo debe ser amado, y el
+                                    logro del dolor mismo debe ser amado.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- publicacion y comentario -->
+        <section class="publicacion">
+            <div class="section-contenedor m-auto">
+                <img class="publicacion-img d-none d-lg-inline-block" src="juegos/footer-top-bg.png.webp" alt="">
+                <div class="row justify-content-center">
+                    <div class="col-sm-8 col-md-12 col-lg-4 text-white mb-5">
+                        <div>
+                            <img class="publicacion-logo" src="juegos/footer-logo.png.webp" alt="">
+                        </div>
+                        <p class="publicacion-parrafo">El dolor mismo debe ser amado, y el logro del dolor mismo debe
+                            ser amado.</p>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="card insignia-marron rounded-0 text-white p-4">
+                            <h4 class="pb-4 mt-3">últimas publicaciones</h4>
+                            <div class="publicacion-cajas">
+                                <div class="publicacion-caja mb-4">
+                                    <div class="publicacion-imagen float-left"
+                                        style="background-image: url(./juegos/publicacion1.webp);"></div>
+                                    <div class="publicacion-texto">
+                                        <p class="text-warning mb-2">21 de junio de 2018</p>
+                                        <p class="mb-2">El cliente debe estar contento, y el resultado se logrará.</p>
+                                        <a class="text-muted" href="">por administrador</a>
+                                    </div>
+                                </div>
+                                <div class="publicacion-caja mb-4">
+                                    <div class="publicacion-imagen float-left"
+                                        style="background-image: url(./juegos/publicacion2.webp);"></div>
+                                    <div class="publicacion-texto">
+                                        <p class="text-warning mb-2">21 de junio de 2018</p>
+                                        <p class="mb-2">El cliente debe estar contento, y el resultado se logrará.</p>
+                                        <a class="text-muted" href="">por administrador</a>
+                                    </div>
+                                </div>
+                                <div class="publicacion-caja mb-2">
+                                    <div class="publicacion-imagen float-left"
+                                        style="background-image: url(./juegos/publicacion3.webp);"></div>
+                                    <div class="publicacion-texto">
+                                        <p class="text-warning mb-2">21 de junio de 2018</p>
+                                        <p class="mb-2">El cliente debe estar contento, y el resultado se logrará.</p>
+                                        <a class="text-muted" href="">por administrador</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-6 col-lg-4">
+                        <div class="card insignia-marron rounded-0 text-white p-4">
+                            <h4 class="pb-4 mt-3">Top Comentarios</h4>
+                            <div class="comentario-cajas">
+                              <div class="comentario-caja mb-4">
+                                <div class="comentario-redondo float-left" style="background-image: url(./juegos/comentario1.webp);"></div>  
+                                <div class="comentario-texto">
+                                    <p class="mb-2">
+                                        <a href="" class="text-danger mb-1 d-inline-block">James Smith</a>
+                                        <span class="text-muted">sobre</span> Lorem ipsum dolor sit amat, co
+                                    </p>
+                                    <p class="text-warning mb-0">21 de junio de 2018</p>  
+                                </div>
+                              </div>
+                              <div class="comentario-caja mb-4">
+                                <div class="comentario-redondo float-left" style="background-image: url(./juegos/comentario2.webp);"></div>  
+                                <div class="comentario-texto">
+                                    <p class="mb-2">
+                                        <a href="" class="text-danger mb-1 d-inline-block">James Smith</a>
+                                        <span class="text-muted">sobre</span> Lorem ipsum dolor sit amat, co
+                                    </p>
+                                    <p class="text-warning mb-0">21 de junio de 2018</p>  
+                                </div>
+                              </div>
+                              <div class="comentario-caja mb-4">
+                                <div class="comentario-redondo float-left" style="background-image: url(./juegos/comentario3.webp);"></div>  
+                                <div class="comentario-texto">
+                                    <p class="mb-2">
+                                        <a href="" class="text-danger mb-1 d-inline-block">James Smith</a>
+                                        <span class="text-muted">sobre</span> Lorem ipsum dolor sit amat, co
+                                    </p>
+                                    <p class="text-warning mb-0">21 de junio de 2018</p>  
+                                </div>
+                              </div>
+                              <div class="comentario-caja">
+                                <div class="comentario-redondo float-left" style="background-image: url(./juegos/comentario4.webp);"></div>  
+                                <div class="comentario-texto">
+                                    <p class="mb-2">
+                                        <a href="" class="text-danger mb-1 d-inline-block">James Smith</a>
+                                        <span class="text-muted">sobre</span> Lorem ipsum dolor sit amat, co
+                                    </p>
+                                    <p class="text-warning mb-0">21 de junio de 2018</p>  
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer id="footer" class="insignia-marron py-4">
+        <div class="section-contenedor m-auto">
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-lg-7 footer-columna text-white-50 d-flex">
+                    <p class="mb-0 footer-parrafo">Copyright © 2023 Todos los derechos reservados | Esta plantilla está hecha con♥por <a class="" href="">Colorlib</a></p>
+                </div>
+                <div class="col-lg d-flex footer-links align-items-center">
+                    <a class="text-white-50 ml-lg-auto" href="">Inicio</a>
+                    <a class="text-white-50" href="">Juegos</a>
+                    <a class="text-white-50" href="">Blog</a>
+                    <a class="text-white-50" href="">Foros</a>
+                    <a class="text-white-50" href="">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

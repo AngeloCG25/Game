@@ -1,0 +1,413 @@
+/* header */
+#header{
+    padding: 20px 5%; background-color: #121212 !important; 
+    border-bottom: #FFB320 2px solid;
+}
+
+.header-img{
+    width: 90%;
+}
+
+.header-link{
+    padding-right:19px !important; padding-left: 19px !important;
+    color: #FFFFFF !important; font-size: 17px; font-weight: 500;
+}
+
+.header-link:hover{
+    color: #FFB320 !important;
+}
+
+.header-datos{
+    padding: 8px 20px;
+    background-color: #FFB320;
+}
+
+.header-datos a{
+    text-decoration: none; color: #000000;
+    font-size: 15px; font-weight: 500;
+}
+
+/* carousel */
+.carrusel{
+    position: relative;
+}
+
+.carrusel .carousel-inner img{
+    height: 865px; width: 100%; object-fit: cover;
+}
+
+.carrusel .overlay{
+    z-index: 1; position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    color: white;
+}
+
+.overlay-contenedor, .overlay-fila{
+    height: 100%;
+}
+
+.overlay-fila h1{
+    font-size: 55px;
+}
+
+.overlay h1 span{
+    color: #FFB320;
+}
+
+.overlay-fila p{
+    font-size: 15px;
+}
+
+/* botones de atras y adelante */
+.carrusel-indicador{
+    left: 2% ; right: auto; top: 450px ; color: #000000;
+    margin-right: 0%; margin-left: 0%;  
+}
+
+.carrusel-indicador .active{
+    background-color: #FFB320 !important;
+}
+
+.carrusel-boton{
+    width: 35px !important; height: 35px !important;
+    border-radius: 50px; line-height: 35px;
+    text-align: center; text-indent: 0px !important;
+    background-color: #FFFFFF !important;
+} 
+
+/* noticias */
+.noticias-texto{
+    max-width: 90%; padding-right: 5%; width: 510px;
+}
+
+.noticias-insignias{
+    width: 100%; background-color: #121212;
+}
+
+.insignia-rojo{
+    background-color: #FF205F;
+}
+
+.insignia-verde{
+    background-color: #4EAE60;
+}
+
+.insignia-morado{
+    background-color: #694EAE;
+}
+
+.insignia-celeste{
+    background-color: #40ABF5;
+}
+
+.insignia-naranja{
+    background-color: #FB6E10;
+}
+
+.insignia-marron{
+    background-color: #252525;
+}
+
+.insignia-rosado{
+    background-color: #FF20AE;
+}
+
+.insignia-redonda{
+    border-radius: 50px; font-size: 18px; font-weight: 500;
+}
+
+/* --- Utilizando la clase .section y .section-contenedor en tarjetas, juegos --- */
+.section{
+    padding: 97px 0px; 
+}
+
+.section-contenedor{
+    padding: 0px 15px; width: 90%; max-width: 1179px;
+}
+
+/* tarjetas */
+.tarjeta-img{
+    width: 100%; height: 415px;
+    object-fit:cover;
+}
+
+.tarjeta-contenido{
+    position: absolute; padding: 25px;
+    background-color: #000000b0;
+    z-index: 1; height: 100%; 
+}
+
+.tarjeta-texto a:hover{
+    text-decoration: none;
+}
+
+/* juegos */
+.juegos{
+    border-top: 1px solid #d6dee7; border-bottom: 1px solid #d6dee7;
+    background-color: #EEF2F6;
+    background-image: url(../juegos/recent-game-bg.png.webp);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.juegos-titulo{
+    font-size: 36px; color: #000000;
+}
+
+.juegos-img > img{
+    object-fit: cover;
+}
+
+.juegos-img > span{
+    position: absolute; top: 25px; left: 25px;
+}
+
+.iconos{
+    position: absolute; right: 0px; bottom: 0px;
+}
+
+.iconos-estrella{
+    background-color:#FFB320;
+}
+
+.iconos-corazon{
+    background-color: #FF205F;  
+}
+
+.iconos-estrella img, .iconos-corazon img{
+    padding: 8px; width: 35px; height: 35px;
+}
+
+/* torneos */
+.torneos{
+    background-image: url(../juegos/pattern.png.webp);
+}
+
+.torneos-img{
+    width: 33% ;
+    object-fit: cover;
+}
+
+.torneos-texto p{
+    font-size: 12px;
+}
+
+/* reseñas */
+.reseñas{
+    background-image: url(../juegos/review-bg.png.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.reseñas-titulo{
+    font-size: 36px; color: #000000;
+}
+
+.reseñas-img{
+    object-fit: cover;
+}
+
+.reseñas-insignia{
+    position: absolute; top: -15px; left: 30px;
+}
+
+.reseñas-parrafo{
+    font-size: 14px;
+}
+
+/* publicacion */
+.publicacion{
+    padding: 72px 0px; position: relative;
+    background-image: url(../juegos/pattern.png.webp);
+}
+
+.publicacion-img{
+    position: absolute; left: 40px; bottom: -15px;
+    object-fit: cover;
+}
+
+.publicacion-logo{
+    max-width: 100%;
+}
+
+.publicacion-parrafo{
+    font-size: 14px; margin-top: 35px;
+}
+
+.publicacion-imagen{
+    width: 97px; height: 97px;
+    background-size: cover; background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.publicacion-texto{
+    padding-left: 110px
+}
+
+.publicacion-texto p{
+    font-size: 12px; color: #d3d3d3; 
+}
+
+.publicacion-texto a{
+    font-size: 12px; font-weight: 700;
+}
+
+.publicacion-texto a:hover{
+    text-decoration: none;
+}
+
+/* cometario */
+.comentario-redondo{
+    width: 63px; height: 63px; border-radius: 50%;
+    background-size: cover; background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.comentario-texto{
+    padding-left: 100px;
+}
+
+.comentario-texto p{
+    font-size: 12px;
+}
+
+/* footer */
+.footer-parrafo{
+    font-size: 15px;
+}
+
+.footer-links{
+    gap: 15px 25px;
+}
+
+@media(max-width:1199px){
+    /* publicacion */
+    .publicacion-imagen{
+        width: 60px; height: 60px;
+    }
+
+    .publicacion-texto{
+        padding-left: 80px
+    }
+}
+
+@media (max-width:991px){
+    /* torneos */
+    .torneos-img{
+        width: 100%; height: 250px;
+    }
+
+    /* reseñas */
+    .reseñas{
+        background-position: left;
+    }
+
+    .reseñas-img{
+        height: 345px;
+    }
+
+    /* publicacion */
+    .publicacion-imagen{
+        width: 80px; height: 80px;
+    }
+
+    .publicacion-texto{
+        padding-left: 95px;
+    }
+
+    /* footer */
+    .footer-columna{
+        justify-content: center;
+    }
+
+    .footer-parrafo{
+        text-align: center;
+    }
+
+    .footer-links{
+        margin-bottom: 20px;
+        justify-content: center; flex-wrap:wrap;
+    }
+}
+
+@media(max-width:767px){
+    /* header */
+    .header-nav{
+        position: absolute; background-color: #FFFFFF;
+        top: 82px; left: 0px; width: 100%;
+    } 
+
+    .header-link{
+        padding: 15px 0px 15px 6% !important; 
+        color: #000000 !important;
+    }
+
+    .nav-item + .nav-item{
+        border-top: #ECECEC 1px solid !important;
+    }
+
+    .overlay-fila h1{
+        font-size: 40px;
+    }
+
+    /* torneos */
+    .torneos-img{
+        width:33%; height: auto;
+    }
+
+    /* publicacion */
+    .publicacion-imagen{
+        width: 97px; height: 97px;
+    }
+
+    .publicacion-texto{
+        padding-left: 110px
+    }
+
+    .publicacion-texto p{
+        font-size: 12.5px;
+    }
+
+    .comentario-texto p{
+        font-size: 12.5px;
+    }
+}
+
+@media(max-width:575px){
+    /* torneos */
+    .torneos-img{
+        width:100%; height: 240px;
+    }
+
+    /* publicacion y comnetarios */
+    .publicacion-texto p{
+        font-size: 13px;
+    }
+
+    .comentario-texto p{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:400px){
+    /* carousel */
+    .overlay-fila h1{
+        font-size: 32px;
+    }
+
+    /* publicacion y comnetarios */
+    .publicacion-imagen{
+        width: 60px; height: 60px;
+    }
+
+    .publicacion-texto{
+        padding-left: 75px;
+    }
+
+    .comentario-texto{
+        padding-left: 80px;
+    }
+}
+
